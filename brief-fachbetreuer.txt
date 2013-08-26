@@ -47,3 +47,5 @@ Zu diskutieren:
 * Wettbewerbsbetonung?
 * Beispielthemen, etwa Nim-Spiele und Graphentheorie
 * Terminoptimismus/-pessimismus
+* "Einzige Bedingung für die Teilnahme ist Spaß und Interesse an der Mathematik."
+* Mamazettel (klar, für die Variante an die Schüler)
