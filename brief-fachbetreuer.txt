@@ -39,3 +39,11 @@ Verfügung. Vielen Dank für Ihre Unterstützung.
 
 Mit freundlichen Grüßen,
 ____________
+
+
+
+
+Zu diskutieren:
+* Wettbewerbsbetonung?
+* Beispielthemen, etwa Nim-Spiele und Graphentheorie
+* Terminoptimismus/-pessimismus
