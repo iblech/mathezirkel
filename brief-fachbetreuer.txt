@@ -1,45 +1,60 @@
 Sehr geehrte ___________,
 
 beginnend mit dem Schuljahr 2013/2014 bietet die Universität Augsburg
-Mathematikzirkel für mathematisch interessierte Schülerinnen und Schüler der
-Klassenstufen 5 bis 12 an. [Schwaben noch explizit erwähnt]
+["sog."?] Mathematikzirkel für mathematisch interessierte Schülerinnen und Schüler der
+Jahrgangsstufen 5 bis 12 an. [Schwaben noch explizit erwähnt]
 
-Dabei wollen wir bei regelmäßig stattfindenden Präsenzzirkeln [besserer
-Begriff? "Seminare"?] in den Räumlichkeiten der Universität sowie schriftlichen
-Korrespondenzzirkeln interessante mathematische Inhalte [besserer Begriff] den
-Schülerinnen und Schülern nahebringen. In diesen Zirkeln geht es nicht um
+Dabei sollen bei regelmäßig stattfindenden Treffen, sog. Präsenzzirkeln [besserer
+Begriff? "Seminare"?], in den Räumlichkeiten der Universität sowie schriftlichen
+Korrespondenzzirkeln interessante mathematische Themen den
+Schülerinnen und Schülern näher gebracht werden. Für diejenigen Schüler, die an
+den Präsenzzirkeln nicht teilnehmen können, wird es schriftliche
+Korrespondenzzirkel geben. Insgesamt geht es
+in diesen Zirkeln geht es nicht um
 Nachhilfe oder Vorwegnahme von Unterrichtsstoff [-materie? -inhalten?], sondern um
-Beschäftigung mit weiterführenden und tiefergehenden Themen sowie auch
+Beschäftigung mit weiterführenden und tiefergehenden Themen (wie etwa
+Nim-Spiele und Graphentheorie). Falls es gewünscht wird, ist auch eine
 Vorbereitung auf mathematische Wettbewerbe (zum Beispiel Landes- und
-Bundeswettbewerb Mathematik, Mathematikolympiade und Känguru-Wettbewerb).
-[fehlt: Erwähnung, wie "frisch" und "anders" unsere Themen sind.]
+Bundeswettbewerb Mathematik, Mathematikolympiade und Känguru-Wettbewerb)
+möglich.
+[fehlt: Erwähnung, wie "frisch" und "anders" unsere Themen sind. Vielleicht
+auch nur ein einziges Adjektiv?]
 
 Die Kurse werden von Mitarbeiterinnen und Mitarbeiter des
-Instituts für Mathematik gehalten, die selber von derartigen Programmen profitierten
+Instituts für Mathematik gehalten, die zum Teil schon selber von derartigen
+Programmen profitierten [doch profitiert haben?]
 und über langjährige Erfahrung in dieser Art von Lehre besitzen. [etwas
-übertrieben? "in mathematischer Begabtenförderung"?]
+übertrieben? "in mathematischer Begabtenförderung"? Steffie meint, dass das
+Prädikat "Mitarbeiter" sowieso schon ausreichen sollte. Vielleicht also den
+Zusatzteil über die große Erfahrung streichen.]
+Die Kosten übernimmt die Universität, sodass die Teilnahme für die Schüler
+kostenlos ist. Die Präsenzzirkel werden natürlich außerhalb der Schulzeiten
+stattfinden.
 
-Die Kosten übernimmt die Universität, sodass die Teilnahme für die Schülerinnen
-und Schüler kostenlos ist. Die Kurse finden außerhalb der Schulzeiten statt,
-wobei die konkreten Termine für die ersten Schnupperstunden bei der
-Eröffnungsveranstaltung abgesprochen werden:
+Für alle Schüler, die sich für eine Teilnahme an einem Mathematikzirkel
+interessieren, findet eine
 
     Eröffnungsveranstaltung am ??.11.2013 um ??:?? Uhr
     mit Vortrag von _________: "___________"
-    in HS L1-2004
+    in den Hörsaal 2004-L1 [in den anderen Versionen Verweis auf Lageplan]
 
-Wenn gewünscht, kommen wir gerne zu Ihnen an die Schule, um Ihnen und Ihren
-Kolleginnen und Kollegen oder Ihren Schülern das Angebot persönlich darzulegen.
-Wir bitten Sie, die beigelegten Briefe an Ihre Fachlehrerinnen und Fachlehrer
-weiterzuleiten und die Informationsmaterialien an interessierte Schüler
-weiterzugeben.
+im Mathematikgebäude der Universität statt. Die konkreten Termine für die
+ersten Präsenzzirkel und der Ablauf der Korrespondenzzirkel werden auch dort
+abgesprochen. ["Schnupper" muss wieder rein, insbesondere in den Brief an die
+Schüler/Eltern.]
+
+Wir bitten Sie, die beigelegten Briefe und Informationsmaterialien an Ihre
+Fachlehrerinnen und Fachlehrer weiterzuleiten und Ihre Schüler auf unser
+Angebot aufmerksam zu machen. Wenn gewünscht, kommen wir gerne zu Ihnen an die
+Schule, um Ihnen und Ihren Kolleginnen und Kollegen oder Ihren Schülern das
+Angebot persönlich zu erläutern.
 
 Für Rückfragen stehen wir Ihnen jederzeit telefonisch und schriftlich zur
-Verfügung. Vielen Dank für Ihre Unterstützung.
+Verfügung [eigentlich muss man die verschiedenen Arten gar nicht erwähnen,
+steht ja im Briefkopf]. Vielen Dank für Ihre Unterstützung.
 
 Mit freundlichen Grüßen,
 ____________
-
 
 
 
@@ -49,3 +64,6 @@ Zu diskutieren:
 * Terminoptimismus/-pessimismus
 * "Einzige Bedingung für die Teilnahme ist Spaß und Interesse an der Mathematik."
 * Mamazettel (klar, für die Variante an die Schüler)
+* "Ich" oder "wir"? Schließlich unterschreibt nur einer den Brief!
+* "Universität" vs. "Universität Augsburg"? Unterscheidung je nach Empfänger?
+* Im Brief an Lehrer/Schüler: Anmeldeformalitäten
