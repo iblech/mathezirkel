@@ -71,3 +71,5 @@ Zu diskutieren:
 * "Ich" oder "wir"? Schließlich unterschreibt nur einer den Brief!
 * "Universität" vs. "Universität Augsburg"? Unterscheidung je nach Empfänger?
 * Im Brief an Lehrer/Schüler: Anmeldeformalitäten
+* In der Fassung an die Fachbetreuer sollte rein, dass sie bei uns ggf. Flyer
+  nachbestellen können.
