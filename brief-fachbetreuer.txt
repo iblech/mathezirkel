@@ -5,6 +5,8 @@ beginnend mit dem Schuljahr 2013/2014 bietet die Universität Augsburg
 Jahrgangsstufen 5 bis 12 an. [Schwaben noch explizit erwähnt. Ist vermutlich
 nicht schlimm]
 
+[Kathrin: Faende im folgenden Absatz den inhaltlichen Teil vor dem organisatorischen besser. Ausserdem: Die Praesenzzirkel
+sind fuer alle, oder?]
 Dabei sollen bei regelmäßig stattfindenden Treffen, sog. Präsenzzirkeln [besserer
 Begriff? "Seminare"?], in den Räumlichkeiten der Universität interessante mathematische Themen den
 Schülerinnen und Schülern näher gebracht werden. Für diejenigen Schüler, die an
@@ -12,11 +14,10 @@ den Präsenzzirkeln nicht teilnehmen können, wird es schriftliche
 Korrespondenzzirkel geben. Insgesamt geht es
 in diesen Zirkeln nicht um
 Nachhilfe oder Vorwegnahme von Unterrichtsinhalten, sondern um
-Beschäftigung mit weiterführenden und tiefergehenden Themen (wie etwa
-Nim-Spiele und Graphentheorie). Falls es gewünscht wird, ist auch eine
-Vorbereitung auf mathematische Wettbewerbe (zum Beispiel Landes- und
-Bundeswettbewerb Mathematik, Mathematikolympiade und Känguru-Wettbewerb)
-möglich.
+Beschäftigung mit weiterführenden und tiefergehenden Themen wie etwa
+Nim-Spiele und Graphentheorie. Falls es gewünscht wird, ist auch eine
+Vorbereitung auf mathematische Wettbewerbe wie dem Landes- und Bundeswettbewerb, der Mathematikolympiade und dem
+Känguru-Wettbewerb möglich.
 [fehlt: Erwähnung, wie "frisch" und "anders" unsere Themen sind. Vielleicht
 auch nur ein einziges Adjektiv?]
 
@@ -26,10 +27,13 @@ Programmen profitierten [doch "profitiert haben"?]
 und über langjährige Erfahrung in dieser Art von Lehre besitzen. [etwas
 übertrieben? "in mathematischer Begabtenförderung"? Steffie meint, dass das
 Prädikat "Mitarbeiter" sowieso schon ausreichen sollte. Vielleicht also den
-Zusatzteil über die große Erfahrung streichen.]
+Zusatzteil über die große Erfahrung streichen.
+Kathrin: Im Zweifelsfall kann man das auch mit einem "teilweise" einschraenken ;-).]
 Die Kosten übernimmt die Universität, sodass die Teilnahme für die Schüler
 kostenlos ist. Die Präsenzzirkel werden natürlich außerhalb der Schulzeiten
 stattfinden.
+[Kathrin: Den Satz finde ich hier irgendwie ein bisschen fehl am Platze. Vielleicht schon oben zu den
+organisatorischen Dingen dazuschreiben?]
 
 Für alle Schüler, die sich für eine Teilnahme an einem Mathematikzirkel
 interessieren, findet eine
