@@ -1,69 +1,16 @@
-\documentclass[a4paper,ngerman,12pt]{scrartcl}
-
-\usepackage[utf8]{inputenc}
-
-\usepackage[ngerman]{babel}
-
-\usepackage{amsmath,amsthm,amssymb,stmaryrd,color,graphicx}
-
-\usepackage[protrusion=true,expansion=true]{microtype}
-
-\usepackage{lmodern}
-
-\usepackage{geometry}
-\geometry{tmargin=1.5cm,bmargin=2cm,lmargin=3cm,rmargin=3cm}
-
-\usepackage{hyperref}
-
-\setlength\parskip{\medskipamount}
-\setlength\parindent{0pt}
-
-\clubpenalty=10000
-\widowpenalty=10000
-\displaywidowpenalty=10000
-
-\pagestyle{empty}
+\documentclass{zirkelbrief}
 
 \begin{document}
 
-\includegraphics[scale=0.1,draft]{logo-ifm}
+\renewcommand{\anschrift}{%
+      Holbein-Gymnasium Augsburg \\
+      Fachbereich Mathematik \\
+      Hallstraße 10 \\
+      86150 Augsburg}
+\renewcommand{\datum}{2.9.2013}
+\renewcommand{\betreff}{Matheschülerzirkel der Universität Augsburg}
 
-\setlength{\unitlength}{1cm}
-\begin{picture}(0,0)
-  \put(0,0){%
-    {\tiny Universität Augsburg -- Lst. Algebra und Zahlentheorie -- 86159
-    Augsburg}
-  }
-  \put(0,-2.5){\smash{\vbox{
-    Holbein-Gymnasium Augsburg \\
-    Fachbereich Mathematik \\
-    Hallstraße 10 \\
-    86150 Augsburg
-  }}}
-  \put(9,-6.8){\vbox{
-    \small
-    \begin{tabbing}
-      Telefax \= \kill
-      \textbf{Prof. Dr. Marco Hien} \\
-      \ \\
-      Lehrstuhl für Algebra und Zahlentheorie \\
-      Universitätsstr. 14 \\
-      86159 Augsburg \\
-      \ \\
-      Telefon \> +49 (0) 821 598 -- 2152 \\
-      Telefax \> +49 (0) 821 598 -- 2090 \\
-      \textsf{marco.hien@math.uni-augsburg.de} \\
-      \textsf{http:/\!/www.math.uni-augsburg.de/alg} \\
-      \rule{6cm}{0.25mm} \\
-      Augsburg, den 2.9.2013
-    \end{tabbing}
-  }}
-\end{picture}
-
-\vspace{7cm}
-
-\textbf{Matheschülerzirkel der Universität Augsburg}
-\vspace{1em}
+\makeletterhead
 
 Sehr geehrte Damen und Herren,
 
