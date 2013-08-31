@@ -14,7 +14,7 @@
 \RequirePackage{lmodern}
 
 \RequirePackage{geometry}
-\geometry{tmargin=1.5cm,bmargin=2cm,lmargin=3cm,rmargin=3cm}
+\geometry{tmargin=1.5cm,bmargin=2cm,lmargin=2.5cm,rmargin=2.5cm}
 
 \RequirePackage{hyperref}
 
@@ -34,7 +34,7 @@
 \newcommand{\datum}{}
 
 \newcommand{\makeletterhead}{%
-  \includegraphics[scale=0.1,draft]{logo-ifm}\par
+  \includegraphics[scale=0.1]{logo-ifm}\par
   \begin{picture}(0,0)
     \put(0,0){%
       {\tiny Universität Augsburg -- Lst. Algebra und Zahlentheorie -- 86159
