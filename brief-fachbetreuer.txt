@@ -1,51 +1,37 @@
-Sehr geehrte ___________,
+Sehr geehrte Lehrkraft der Mathematik,
 
 beginnend mit dem Schuljahr 2013/2014 bietet die Universität Augsburg
-["sog."?] Mathematikzirkel für mathematisch interessierte Schülerinnen und Schüler der
-Jahrgangsstufen 5 bis 12 an. [Schwaben noch explizit erwähnt. Ist vermutlich
-nicht schlimm]
+einen \emph{Mathematikzirkel} für mathematisch interessierte Schülerinnen und Schüler der
+Jahrgangsstufen~5 bis~12 an.
 
-[Kathrin: Faende im folgenden Absatz den inhaltlichen Teil vor dem organisatorischen besser. Ausserdem: Die Praesenzzirkel
-sind fuer alle, oder?]
-Dabei sollen bei regelmäßig stattfindenden Treffen, sog. Präsenzzirkeln [besserer
-Begriff? "Seminare"?], in den Räumlichkeiten der Universität interessante mathematische Themen den
-Schülerinnen und Schülern näher gebracht werden. Für diejenigen Schüler, die an
-den Präsenzzirkeln nicht teilnehmen können, wird es schriftliche
-Korrespondenzzirkel geben. Insgesamt geht es
-in diesen Zirkeln nicht um
-Nachhilfe oder Vorwegnahme von Unterrichtsinhalten, sondern um
-Beschäftigung mit weiterführenden und tiefergehenden Themen wie etwa
-Nim-Spiele und Graphentheorie. Falls es gewünscht wird, ist auch eine
-Vorbereitung auf mathematische Wettbewerbe wie dem Landes- und Bundeswettbewerb, der Mathematikolympiade und dem
-Känguru-Wettbewerb möglich.
-[fehlt: Erwähnung, wie "frisch" und "anders" unsere Themen sind. Vielleicht
-auch nur ein einziges Adjektiv?]
+Dabei sollen bei regelmäßig stattfindenden Treffen, \emph{Präsenzzirkeln}, in
+den Räumlichkeiten der Universität spannende mathematische Themen den Schülern
+näher gebracht werden; es geht nicht um Nachhilfe oder Vorwegnahme von
+Unterrichtsinhalten, sondern um Beschäftigung mit orthogonalen Themen wie etwa
+Spieltheorie, Zahlenrätsel, Fraktale oder Graphentheorie. Falls es gewünscht
+wird, ist auch eine Vorbereitung auf Wettbewerbe wie den Landes- und
+Bundeswettbewerb und dem Känguru der Mathematik möglich.
 
-Die Kurse werden von Mitarbeiterinnen und Mitarbeiter des
+Für diejenigen Schüler, die an den Präsenzzirkeln nicht teilnehmen können, gibt
+es schriftliche \emph{Korrespondenzzirkel}. Dabei bearbeiten die Schüler
+Übungsblätter, welche wir dann korrigieren.
+
+Die Kurse werden von Mitarbeiterinnen und Mitarbeitern des
 Instituts für Mathematik gehalten, die zum Teil schon selber von derartigen
-Programmen profitierten [doch "profitiert haben"?]
-und über langjährige Erfahrung in dieser Art von Lehre besitzen. [etwas
-übertrieben? "in mathematischer Begabtenförderung"? Steffie meint, dass das
-Prädikat "Mitarbeiter" sowieso schon ausreichen sollte. Vielleicht also den
-Zusatzteil über die große Erfahrung streichen.
-Kathrin: Im Zweifelsfall kann man das auch mit einem "teilweise" einschraenken ;-).]
-Die Kosten übernimmt die Universität, sodass die Teilnahme für die Schüler
+Programmen profitierten. Die Kosten übernimmt die Universität, sodass die Teilnahme für die Schüler
 kostenlos ist. Die Präsenzzirkel werden natürlich außerhalb der Schulzeiten
 stattfinden.
-[Kathrin: Den Satz finde ich hier irgendwie ein bisschen fehl am Platze. Vielleicht schon oben zu den
-organisatorischen Dingen dazuschreiben?]
 
 Für alle Schüler, die sich für eine Teilnahme an einem Mathematikzirkel
 interessieren, findet eine
 
     Eröffnungsveranstaltung am ??.11.2013 um ??:?? Uhr
-    mit Vortrag von _________: "___________"
-    in den Hörsaal 2004-L1 [in den anderen Versionen Verweis auf Lageplan]
+    mit einem Vortrag von _________: "___________"
+    im Hörsaal 1004/T
 
-im Mathematikgebäude der Universität statt. Die konkreten Termine für die
-ersten Präsenzzirkel und der Ablauf der Korrespondenzzirkel werden auch dort
-abgesprochen. ["Schnupper" muss wieder rein, insbesondere in den Brief an die
-Schüler/Eltern.]
+des Physik-Hörsaalzentrums der Universität statt. Die konkreten Termine für die
+ersten Präsenzzirkel und der Ablauf der Korrespondenzzirkel werden dort auch
+abgesprochen.
 
 Wir bitten Sie, die beigelegten Briefe mit ausführlicheren Informationen und Flyer an Ihre
 Fachlehrerinnen und Fachlehrer weiterzuleiten und Ihre Schüler auf unser
@@ -54,8 +40,7 @@ Schule, um Ihnen und Ihren Kolleginnen und Kollegen oder Ihren Schülern das
 Angebot persönlich zu erläutern.
 
 Für Rückfragen stehen wir Ihnen jederzeit telefonisch und schriftlich zur
-Verfügung [eigentlich muss man die verschiedenen Arten gar nicht erwähnen,
-steht ja im Briefkopf]. Vielen Dank für Ihre Unterstützung.
+Verfügung. Vielen Dank für Ihre Unterstützung.
 
 Mit freundlichen Grüßen,
 ____________
@@ -66,6 +51,7 @@ Zu diskutieren:
 * Wettbewerbsbetonung?
 * Beispielthemen, etwa Nim-Spiele und Graphentheorie
 * Terminoptimismus/-pessimismus
+* doch "profitiert haben"?
 * "Einzige Bedingung für die Teilnahme ist Spaß und Interesse an der Mathematik."
 * Mamazettel (klar, für die Variante an die Schüler)
 * "Ich" oder "wir"? Schließlich unterschreibt nur einer den Brief!
@@ -74,4 +60,7 @@ Zu diskutieren:
 * In der Fassung an die Fachbetreuer sollte rein, dass sie bei uns ggf. Flyer
   nachbestellen können.
 * 5. Klasse separat behandeln? Die müssen sich ja erst orientieren.
-* Arme Familien?
+* Kathrin: Ausserdem: Die Praesenzzirkel sind fuer alle, oder?
+  Ingo: Was meinst du damit?
+* Wie von Kathrin beobachtet, passt der Satz "Die Präsenzzirkel werden
+  natürlich außerhalb der Schulzeiten stattfinden." nicht gut in den Fluss.
