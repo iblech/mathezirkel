@@ -27,3 +27,6 @@ Zu diskutieren:
 * 5. Klasse separat behandeln? Die müssen sich ja erst orientieren.
 * "Ich" oder "wir"? Schließlich unterschreibt nur einer den Brief!
 * In den Briefen noch evtl. vorhandene schulinterne Pluskurse thematisieren
+* Sollen wir Lehrer besonders ermuntern, >= 2 Schüler einer Klasse zu uns zu
+  schicken? (Ein Schüler einer niedrigen Jahrgangsstufe traut sich vielleicht
+  nicht alleine.)
