@@ -32,6 +32,18 @@
 \newcommand{\anschrift}{}
 \newcommand{\betreff}{}
 \newcommand{\datum}{}
+\newcommand{\absender}{%
+    \textbf{Prof. Dr. Marco Hien} \\
+    \ \\
+    Lehrstuhl für Algebra und Zahlentheorie \\
+    Universitätsstr. 14 \\
+    86159 Augsburg \\
+    \ \\
+    Telefon \> +49 (0) 821 598 -- 2152 \\
+    Telefax \> +49 (0) 821 598 -- 2090 \\
+    \textsf{marco.hien@math.uni-augsburg.de} \\
+    \textsf{http:/\!/www.math.uni-augsburg.de/alg} \\
+}
 
 \newcommand{\makeletterhead}{%
   \includegraphics[scale=0.1]{logo-ifm}\par
@@ -41,25 +53,16 @@
       Augsburg}
     }
     \put(0,-2.5){\vbox{\anschrift}}
-    \put(9,-6.8){\vbox{
+    \put(10,-4.5){\vbox{
       \small
       \begin{tabbing}
         Telefax \= \kill
-        \textbf{Prof. Dr. Marco Hien} \\
-        \ \\
-        Lehrstuhl für Algebra und Zahlentheorie \\
-        Universitätsstr. 14 \\
-        86159 Augsburg \\
-        \ \\
-        Telefon \> +49 (0) 821 598 -- 2152 \\
-        Telefax \> +49 (0) 821 598 -- 2090 \\
-        \textsf{marco.hien@math.uni-augsburg.de} \\
-        \textsf{http:/\!/www.math.uni-augsburg.de/alg} \\
+        \absender
         \rule{6cm}{0.25mm} \\
         Augsburg, den \datum
       \end{tabbing}
     }}
   \end{picture}\par
-  \vspace{7cm}
+  \vspace{5cm}
   \textbf{\betreff}\par
   \vspace{1em}}
