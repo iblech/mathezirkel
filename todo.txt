@@ -27,3 +27,5 @@ Weniger offensichtliche Punkte:
 * Stimmt die Briefkopf-PLZ?
 * ggf. Empfehlung des Ministeriums erwähnen
 * Telefonnummer auf ein Sekretariat ändern
+* Vorschläge zur Kürzung: "telefonisch und schriftlich" streichen,
+  "aufmerksam machen" streichen
