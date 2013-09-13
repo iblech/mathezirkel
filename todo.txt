@@ -22,6 +22,12 @@ Weniger offensichtliche Punkte:
 * alles kostenlos, nicht nur Eröffnungsveranstaltung
 * Link ändern (in QR und Text)
 
+Änderungen Poster:
+* "Ihr" klein
+* Satzpunkte?
+* "Wöchentlich" oder "zweiwöchentlich"?
+* explizite Nennung der Beispielthemen?
+
 Änderungen Briefe:
 * "Studiendekan" sollte erwähnt werden.
 * Stimmt die Briefkopf-PLZ?
