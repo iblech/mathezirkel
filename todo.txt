@@ -21,12 +21,15 @@ Weniger offensichtliche Punkte:
 * "Schnupper"! Auf die Webseite setzen.
 * alles kostenlos, nicht nur Eröffnungsveranstaltung
 * Link ändern (in QR und Text)
+* Randausgleich in Scribus aktivieren
 
 Änderungen Poster:
 * "Ihr" klein
 * Satzpunkte?
 * "Wöchentlich" oder "zweiwöchentlich"?
 * explizite Nennung der Beispielthemen?
+* Link ändern (in QR und Text)
+* Kommasetzung nachschauen: "Am Samstag KOMMA den 9.11.2003 KOMMA ..."
 
 Änderungen Briefe:
 * "Studiendekan" sollte erwähnt werden.
