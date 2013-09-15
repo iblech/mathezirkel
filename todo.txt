@@ -32,6 +32,7 @@ Weniger offensichtliche Punkte:
 * Link ändern (in QR und Text)
 * Kommasetzung nachschauen: "Am Samstag KOMMA den 9.11.2003 KOMMA ..."
 * Ist der QR-Code mit transparentem Hintergrund fürs Handy lesbar?
+* Farbkleckse im Bild entfernen
 
 Änderungen Briefe:
 * "Studiendekan" sollte erwähnt werden.
