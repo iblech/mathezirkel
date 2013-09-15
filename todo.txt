@@ -22,6 +22,7 @@ Weniger offensichtliche Punkte:
 * alles kostenlos, nicht nur Eröffnungsveranstaltung
 * Link ändern (in QR und Text)
 * Randausgleich in Scribus aktivieren
+* Ist der QR-Code mit transparentem Hintergrund fürs Handy lesbar?
 
 Änderungen Poster:
 * "Ihr" klein
@@ -30,6 +31,7 @@ Weniger offensichtliche Punkte:
 * explizite Nennung der Beispielthemen?
 * Link ändern (in QR und Text)
 * Kommasetzung nachschauen: "Am Samstag KOMMA den 9.11.2003 KOMMA ..."
+* Ist der QR-Code mit transparentem Hintergrund fürs Handy lesbar?
 
 Änderungen Briefe:
 * "Studiendekan" sollte erwähnt werden.
