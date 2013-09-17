@@ -37,6 +37,7 @@ Weniger offensichtliche Punkte:
 * Blocksatz checken
 * Untere Zeile etwas weiter nach unten (zur Entzerrung)
 * "Hinweis" oder "Bemerkung" statt "Tipp" (denn es ist kein Tipp)
+* Farbverlauf ist nicht der starke wie vom Flyer
 
 Änderungen Briefe:
 * "Studiendekan" sollte erwähnt werden.
