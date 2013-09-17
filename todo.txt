@@ -24,6 +24,7 @@ Weniger offensichtliche Punkte:
 * Randausgleich in Scribus aktivieren
 * Ist der QR-Code mit transparentem Hintergrund fürs Handy lesbar?
 * Blocksatz checken
+* Vortragstitel: "Was sind eigentlich Zahlen?"
 
 Änderungen Poster:
 * "Ihr" klein
@@ -38,6 +39,7 @@ Weniger offensichtliche Punkte:
 * Untere Zeile etwas weiter nach unten (zur Entzerrung)
 * "Hinweis" oder "Bemerkung" statt "Tipp" (denn es ist kein Tipp)
 * Farbverlauf ist nicht der starke wie vom Flyer
+* Vortragstitel: "Was sind eigentlich Zahlen?"
 
 Änderungen Briefe:
 * "Studiendekan" sollte erwähnt werden.
