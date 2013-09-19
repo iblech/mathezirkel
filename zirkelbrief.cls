@@ -63,6 +63,6 @@
       \end{tabbing}
     }}
   \end{picture}\par
-  \vspace{5cm}
+  \vspace{4cm}
   \textbf{\betreff}\par
   \vspace{1em}}
