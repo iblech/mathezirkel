@@ -14,37 +14,15 @@ Weniger offensichtliche Punkte:
 * Facebook-Seite anlegen
 * Briefe an Mathepluslehrer schreiben (sind einige wenige)
 
-Änderungen Flyer:
-* "schreibe" statt "schreib", "rufe" statt "ruf"
-* "komm'" statt "komm"?
-* "Fraktalen oder nichtklassischer Logik"
-* "Schnupper"! Auf die Webseite setzen.
-* alles kostenlos, nicht nur Eröffnungsveranstaltung
-* Link ändern (in QR und Text)
-* Randausgleich in Scribus aktivieren
-* Ist der QR-Code mit transparentem Hintergrund fürs Handy lesbar?
-* Blocksatz checken
-* Vortragstitel: "Was sind eigentlich Zahlen?"
-
-Änderungen Poster:
-* "Ihr" klein
-* Satzpunkte?
-* "Wöchentlich" oder "zweiwöchentlich"?
-* explizite Nennung der Beispielthemen?
-* Link ändern (in QR und Text)
-* Kommasetzung nachschauen: "Am Samstag KOMMA den 9.11.2003 KOMMA ..."
-* Ist der QR-Code mit transparentem Hintergrund fürs Handy lesbar?
-* Farbkleckse im Bild entfernen
-* Blocksatz checken
-* Untere Zeile etwas weiter nach unten (zur Entzerrung)
-* "Hinweis" oder "Bemerkung" statt "Tipp" (denn es ist kein Tipp)
-* Farbverlauf ist nicht der starke wie vom Flyer
-* Vortragstitel: "Was sind eigentlich Zahlen?"
-
 Änderungen Briefe:
 * "Studiendekan" sollte erwähnt werden.
 * Stimmt die Briefkopf-PLZ?
 * ggf. Empfehlung des Ministeriums erwähnen
-* Telefonnummer auf ein Sekretariat ändern
-* Vorschläge zur Kürzung: "telefonisch und schriftlich" streichen,
-  "aufmerksam machen" streichen
+* Sekretariatsnummer zusätzlich?
+* Vor dem \begin{center} sollte Blocksatz erhalten bleiben
+* "einer der Briefe ist auch für Sie bestimmt"
+* blechschmidt@ statt ingo.blechschmidt@
+* "Studiendekan" vollständig ausschreiben und etwas kleiner; Einrückung
+* Text etwas runter (Abstände wirken unausgeglichen)
+* Strichlänge
+* Steffie: in zwei Zeilen "Vielen Dank für Ihre Unterstützung." "Mit frdl. Grüßen"
