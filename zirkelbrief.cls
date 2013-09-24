@@ -14,7 +14,7 @@
 \RequirePackage{lmodern}
 
 \RequirePackage{geometry}
-\geometry{tmargin=1.5cm,bmargin=2cm,lmargin=2.5cm,rmargin=2.5cm}
+\geometry{tmargin=2cm,bmargin=2cm,lmargin=2.5cm,rmargin=2.5cm}
 
 \RequirePackage{hyperref}
 
@@ -58,7 +58,7 @@
       \begin{tabbing}
         Telefax \= \kill
         \absender
-        \rule{6cm}{0.25mm} \\
+        \rule{174pt}{0.25mm} \\
         Augsburg, den \datum
       \end{tabbing}
     }}
