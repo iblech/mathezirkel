@@ -39,7 +39,7 @@
     Universitätsstr. 14 \\
     86159 Augsburg \\
     \ \\
-    Telefon \> +49 (0) 821 598 -- 2152 \\
+    Telefon \> +49 (0) 821 598 -- 2148 \\
     Telefax \> +49 (0) 821 598 -- 2090 \\
     \textsf{marco.hien@math.uni-augsburg.de} \\
     \textsf{http:/\!/www.math.uni-augsburg.de/alg} \\
@@ -49,7 +49,7 @@
   \includegraphics[scale=0.1]{logo-ifm}\par
   \begin{picture}(0,0)
     \put(0,0){%
-      {\tiny Universität Augsburg -- Lst. Algebra und Zahlentheorie -- 86159
+      {\tiny Universität Augsburg -- Lst. Algebra und Zahlentheorie -- 86135
       Augsburg}
     }
     \put(0,-2.5){\vbox{\anschrift}}
