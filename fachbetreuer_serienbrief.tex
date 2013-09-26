@@ -1,0 +1,73 @@
+\documentclass{serienbrief}
+
+\def\chopline#1;#2;#3;#4;#5 \\{
+  \def\schule{#1}
+  \def\strasse{#2}
+	\def\plz{#3}
+	\def\ort{#4}
+ }
+ 
+ \newif\ifmore \moretrue
+
+
+\begin{document}
+
+\newread\quelle
+ \openin\quelle=adressen.dat
+ 
+ \loop
+  \read\quelle to \zeile
+  \ifeof\quelle
+   \global\morefalse
+  \else
+   \expandafter\chopline\zeile\\
+
+\renewcommand{\anschrift}{
+      \schule \\
+      Fachbereich Mathematik \\
+      \strasse \\
+      \plz ~\ort
+			}
+			
+\renewcommand{\betreff}{Mathesch\"ulerzirkel der Universit\"at Augsburg}
+
+\makeletterhead
+
+Sehr geehrte Fachbetreuerin, sehr geehrter Fachbetreuer,
+
+beginnend mit dem Schuljahr 2013/2014 bietet die Universit\"at Augsburg einen \emph{Mathe\-matik\-zir\-kel} f\"ur interessierte Sch\"ulerinnen und Sch\"uler der Jahrgangsstufen~5 bis~12 an.
+
+Dabei sollen bei regelm\"a\ss ig stattfindenden Treffen, \emph{Pr\"asenzzirkeln}, in den R\"aum\-lich\-kei\-ten der Universit\"at spannende mathematische Themen den Sch\"ulern n\"ahergebracht werden; es geht nicht um Nachhilfe oder Vorwegnahme von Unterrichtsinhalten, sondern um Besch\"aftigung mit anderen Themen wie etwa Spieltheorie, Zahlenr\"atseln, Fraktalen oder Graphentheorie. Falls gew\"unscht, ist auch eine Vorbereitung auf mathematische Wettbewerbe m\"oglich.
+
+%F\"ur diejenigen Sch\"uler, die an den Pr\"asenzzirkeln nicht teilnehmen k\"onnen, gibt
+%es schriftliche \emph{Korrespondenzzirkel}.
+Zus\"atzlich bieten wir schriftliche \emph{Korrespondenzzirkel} an, an denen auch diejenigen Sch\"uler teilnehmen k\"onnen, die zu den Pr\"asenzzirkeln verhindert sind. Dabei erhalten die Sch\"uler von uns Materialien und bearbeiten \"Ubungsbl\"atter, welche wir dann korrigieren.
+
+Die Kurse werden von Mitarbeiterinnen und Mitarbeitern des
+Instituts f\"ur Mathematik gehalten. Die Teilnahme ist f\"ur die Sch\"uler kostenlos. Die Pr\"asenzzirkel finden au\ss erhalb der Unterrichtszeiten statt, wobei die genauen Termine in einer
+Auftaktveranstaltung abgesprochen werden.
+
+Ich bitte Sie, die beigelegten Briefe mit ausf\"uhrlicheren Informationen und Flyern an Ihre Fachlehrerinnen und Fachlehrer weiterzuleiten und Ihre Sch\"uler auf unser Angebot aufmerksam zu machen. Wenn gew\"unscht, kommen wir auch gerne zu Ihnen an die
+Schule, um Ihnen und Ihren Kolleginnen und Kollegen oder Ihren Sch\"ulern das Angebot pers\"onlich zu erl\"autern.
+
+F\"ur R\"uckfragen stehe ich Ihnen jederzeit telefonisch und schriftlich zur Verf\"ugung. Vielen Dank f\"ur Ihre Unterst\"utzung.
+
+Mit freundlichen Gr\"u\ss en
+
+\vspace{1cm}
+
+Prof. Dr. Marco Hien
+
+\vspace{-0.2cm}
+
+{\small Studiendekan der Mathematik}
+
+\newpage
+
+ \fi
+ \ifmore\repeat
+ 
+ \closein\quelle
+
+
+\end{document}
