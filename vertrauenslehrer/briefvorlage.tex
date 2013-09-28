@@ -1,12 +1,12 @@
-\documentclass{zirkelbrief}
+\documentclass{../../zirkelbrief}
 
 \begin{document}
 
 \renewcommand{\anschrift}{%
-      Holbein-Gymnasium Augsburg \\
-      Fachbereich Mathematik \\
-      Hallstraße 10 \\
-      86150 Augsburg}
+      ((schule)) \\
+      ((lehrername)) \\
+      ((strasse)) \\
+      ((plz)) ((ort))}
 \renewcommand{\datum}{\today}
 \renewcommand{\betreff}{Matheschülerzirkel der Universität Augsburg}
 \renewcommand{\absender}{%
@@ -22,7 +22,15 @@
 
 \makeletterhead
 
-Sehr geehrte Frau Mathespaß,
+\newif\iflehrermaennlich\lehrermaennlich((lehrermaennlich))
+\newif\ifschuelermaennlich\schuelermaennlich((schuelermaennlich))
+\newif\ifweitweg\weitweg((weitweg))
+
+\iflehrermaennlich
+Sehr geehrter ((lehrername)),
+\else
+Sehr geehrte ((lehrername)),
+\fi
 
 ich bin ein Doktorand in Mathematik an der Universität Augsburg und schreibe
 Ihnen, weil ich Sie auf ein neu initiiertes Projekt der Universität aufmerksam machen
@@ -30,25 +38,34 @@ möchte: Ab dem Schuljahr~2013/2014 bieten wir einen Mathematikzirkel für
 interessierte Schülerinnen und Schüler der Jahrgangsstufen~5 bis~12 an. Dabei
 wird es in den Räumlichkeiten der Universität Augsburg regelmäßig stattfindende
 Treffen geben, bei denen wir spannende Themen der Mathematik abseits des
-Schulunterrichts behandeln wollen; [da Ihrstadt ja recht weit von Augsburg
-entfernt liegt,] bieten wir außerdem schriftliche Korrespondenzzirkel an, bei
-denen die Schüler von uns Materialien erhalten und Übungsblätter bearbeiten,
-welche wir dann korrigiert zurückgeben.
+Schulunterrichts behandeln wollen;
+\ifweitweg
+da ((ort)) ja recht weit von Augsburg entfernt liegt, bieten wir außerdem
+schriftliche Korrespondenzzirkel an, bei denen die Schüler von uns Materialien
+erhalten und Übungsblätter bearbeiten, welche wir dann korrigiert zurückgeben.
+\else
+für Schüler, die zu den Treffen verhindert sind, bieten wir außerdem
+schriftliche Korrespondenzzirkel an, bei denen die Schüler von uns Materialien
+erhalten und Übungsblätter bearbeiten, welche wir dann korrigiert zurückgeben.
+\fi
 
 Diesbezüglich verschicken wir in den nächsten Tagen an alle Gymnasien Schwabens
 und ein paar weitere Schulen entsprechende Informationsmaterialien. Nun ist es
 so, dass wir von Projekten dieser Art an anderen Orten erfahren haben, dass
 solche Briefe in der Menge der Korrespondenz leider manchmal untergehen.
-Deshalb erhalten für das XYZ-Gymnasium speziell Sie diesen Brief vorab:
+Deshalb erhalten für das ((schulekurz)) speziell Sie diesen Brief vorab:
 
 Wir haben unsere Studenten um Mithilfe gebeten und sie gefragt, ob sie an ihrer
 ehemaligen Schule jeweils eine besonders engagierte Mathematik-Lehrerin oder einen besonders
 engagierten Mathematik-Lehrer kennen, die bzw. der
-vielleicht unser Projekt unterstützen würde. Für das XYZ-Gymnasium hat sich
-Ihre ehemalige Schülerin Anne Hatspaßanmathe gemeldet: Anne hat Sie in bester
-Erinnerung und dachte, dass Sie die beste Kandidatin wären, um an Ihrer Schule
-dafür Sorge zu tragen, dass unser Anliegen an die Schüler
-weitergegeben wird. Darum würde ich Sie also ganz herzlich bitten.
+vielleicht unser Projekt unterstützen würde. Für das ((schulekurz)) hat sich
+\ifschuelermaennlich Ihr ehemaliger Schüler ((schuelername)) \else
+Ihre ehemalige Schülerin ((schuelername)) \fi
+gemeldet: ((schuelerkurz)) hat Sie in bester
+Erinnerung und dachte, dass Sie \iflehrermaennlich der beste Kandidat wären,
+\else die beste Kandidatin wären, \fi um an Ihrer Schule dafür Sorge zu tragen,
+dass unser Anliegen an die Schüler weitergegeben wird. Darum würde ich Sie also
+ganz herzlich bitten.
 
 Außerdem hoffe ich, dass Sie mir diese Verletzung des Dienstwegs verzeihen, und
 dass sich kein anderer Lehrer unberücksichtigt fühlt. Unsere Studentenerhebung
