@@ -31,11 +31,12 @@ while(<>) {
     weitweg => $weitweg,
   );
 
-  $tmpl =~ s/\(\($_\)\)/$assoc{$_}/g for keys %assoc;
+  my $body = $tmpl;
+  $body =~ s/\(\($_\)\)/$assoc{$_}/g for keys %assoc;
 
   my $id = $schule;
   $id =~ s/[^a-zA-Z]//g;
 
   open my $fh, ">", "out/$id.tex" or die $1;
-  print $fh $tmpl;
+  print $fh $body;
 }
