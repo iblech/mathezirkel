@@ -1,28 +1,4 @@
-Offensichtliche Punkte:
-* Flyer entwerfen
-* Flyer drucken
-* Briefe finalisieren
-* Briefe drucken
-* Presseerklärung aufsetzen
-* Rücksprache Marco Hien
-
 Weniger offensichtliche Punkte:
-* Um Nicht-Standard-Schulen kümmern, zumindest die in Augsburg?
-* Mathe-Plus-Angebote der Uni Ulm?
-* Nahe liegende, aber nicht schwäbische Schulen anschreiben
-* FOS (aber nicht BOS) anschreiben
 * Facebook-Seite anlegen
-* Briefe an Mathepluslehrer schreiben (sind einige wenige)
 
-Änderungen Briefe:
-* "Studiendekan" sollte erwähnt werden.
-* Stimmt die Briefkopf-PLZ?
-* ggf. Empfehlung des Ministeriums erwähnen
-* Sekretariatsnummer zusätzlich?
-* Vor dem \begin{center} sollte Blocksatz erhalten bleiben
-* "einer der Briefe ist auch für Sie bestimmt"
-* blechschmidt@ statt ingo.blechschmidt@
-* "Studiendekan" vollständig ausschreiben und etwas kleiner; Einrückung
-* Text etwas runter (Abstände wirken unausgeglichen)
-* Strichlänge
-* Steffie: in zwei Zeilen "Vielen Dank für Ihre Unterstützung." "Mit frdl. Grüßen"
+Gestaltungsidee: Fraktaler Baum, aber gemalt
