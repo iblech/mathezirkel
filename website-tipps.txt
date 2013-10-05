@@ -1,0 +1,30 @@
+=== Würmer
+
+ab Klasse 5: Die Situation weist eine besondere Symmetrie auf. Was hilft das?
+
+ab Klasse 7: Versetze dich in einen bestimmten Wurm und betrachte also nur die
+Relativbewegung der anderen beiden Würmer.
+
+ab Klasse 10: Informiere dich über die Grundlagen zu Differentialgleichungen
+und Polarkoordinaten.
+
+
+=== Leitungen
+
+* Nein. Das Stichwort dazu lautet "planare Graphen".
+* Nein.
+* Ja!
+
+
+=== Nägel
+
+Du kannst natürlich die Schnur nacheinander um verschiedene Nägel, aber auch in
+verschiedene Richtungen winden. Wenn du dich für den theoretischen Hintergrund
+interessierst, können wir in einem der Präsenz- oder Korrespondenzzirkel über
+sog. freie Fundamentalgruppen sprechen.
+
+
+=== Diffuse Teilmengen
+
+Betrachte Kurven und die Koordinatengleichungen für Ebenen. Polynome könnten
+hilfreich sein.
