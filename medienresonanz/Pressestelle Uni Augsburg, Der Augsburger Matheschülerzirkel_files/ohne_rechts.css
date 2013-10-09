@@ -1,0 +1,18 @@
+/* Stylesheet zur Änderung der globalen Gestaltungseigenschaften, wenn keine rechte Navigation angezeigt wird */
+
+/* Dateiweite Einstellungen */
+#content { 
+margin-right:140px; 
+} 
+
+/* Sitemap, Suche und Sprachwechsel */
+#rightnav {
+text-align:center;
+font-size:85%;
+}
+#rightnav ul {
+list-style-type:none;
+}
+#query {
+font-size:90%;
+}

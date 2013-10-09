@@ -1,0 +1,11 @@
+var OX_1fac6f0b = '';
+OX_1fac6f0b += "<"+"div id=\'ox_520edbac395815a781ba63cd8fb6fc4e\' style=\'display: inline;\'><"+"img src=\'http://sox.newsfactory.de/www/images/1x1.gif\' alt=\'\' title=\'\' border=\'0\' /><"+"/div>\n";
+OX_1fac6f0b += "<"+"script type=\'text/javascript\'><"+"!--// <"+"![CDATA[\n";
+OX_1fac6f0b += "var ox_swf = new FlashObject(\'http://sox.newsfactory.de/www/images/01b17eb3009f8dbd7b8a33c28ff28507.swf\', \'Advertisement\', \'300\', \'95\', \'9\');\n";
+OX_1fac6f0b += "ox_swf.addVariable(\'clickTARGET\', \'_blank\');\n";
+OX_1fac6f0b += "ox_swf.addVariable(\'clickTAG\', \'http%3A%2F%2Fsox.newsfactory.de%2Fwww%2Fdelivery%2Fck.php%3Foaparams%3D2__bannerid%3D1608__zoneid%3D35__cb%3D8ebe5ebbdd__oadest%3Dhttp%253A%252F%252Fwww.suedleasing.de%252F\');\n";
+OX_1fac6f0b += "ox_swf.addParam(\'allowScriptAccess\',\'always\');\n";
+OX_1fac6f0b += "ox_swf.write(\'ox_520edbac395815a781ba63cd8fb6fc4e\');\n";
+OX_1fac6f0b += "if (ox_swf.installedVer.versionIsValid(ox_swf.getAttribute(\'version\'))) { document.write(\"<"+"div id=\'beacon_8ebe5ebbdd\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://sox.newsfactory.de/www/delivery/lg.php?bannerid=1608&amp;campaignid=1013&amp;zoneid=35&amp;loc=http%3A%2F%2Fwww.b4bschwaben.de%2Fnachrichten%2Faugsburg_artikel%2C-Mehr-als-nur-Zahlen-Universitaet-will-fuer-Mathe-begeistern-_arid%2C131039.html&amp;cb=8ebe5ebbdd\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\"); }\n";
+OX_1fac6f0b += "// ]]> --><"+"/script>\n";
+document.write(OX_1fac6f0b);

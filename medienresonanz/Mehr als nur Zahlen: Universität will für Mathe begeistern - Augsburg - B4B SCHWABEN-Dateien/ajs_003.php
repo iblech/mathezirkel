@@ -1,0 +1,16 @@
+var OX_38f6d5b0 = '';
+OX_38f6d5b0 += "<"+"script type=\"text/javascript\">\n";
+OX_38f6d5b0 += "nfyWallpaper();\n";
+OX_38f6d5b0 += "document.body.style.background=\'#FFFFFF\';<"+"/script>\n";
+OX_38f6d5b0 += "<"+"div id=\'ox_d43d9f777a3e306c079e735f8291d8a4\' style=\'display: inline;\'><"+"script type=\"text/javascript\">\n";
+OX_38f6d5b0 += "nfyWallpaper();\n";
+OX_38f6d5b0 += "document.body.style.background=\'#FFFFFF\';<"+"/script><"+"a href=\'http://sox.newsfactory.de/www/delivery/ck.php?oaparams=2__bannerid=1597__zoneid=28__cb=a3cda0e3ef__oadest=http%3A%2F%2Fbusiness-easy.hypovereinsbank.de%2F%3Fhvbcid%3DBAC-352491%3A8118277%3A16824131\' target=\'_blank\'><"+"img src=\'http://sox.newsfactory.de/www/images/143a2bb47e689183f95844bbc5b0bf77.jpg\' width=\'160\' height=\'600\' alt=\'\' title=\'\' border=\'0\' /><"+"/a><"+"/div>\n";
+OX_38f6d5b0 += "<"+"script type=\'text/javascript\'><"+"!--// <"+"![CDATA[\n";
+OX_38f6d5b0 += "var ox_swf = new FlashObject(\'http://sox.newsfactory.de/www/images/fe097f0bb514da13990f1e9114a4870d.swf\', \'Advertisement\', \'160\', \'600\', \'8\');\n";
+OX_38f6d5b0 += "ox_swf.addVariable(\'clickTARGET\', \'_blank\');\n";
+OX_38f6d5b0 += "ox_swf.addVariable(\'clickTAG\', \'http%3A%2F%2Fsox.newsfactory.de%2Fwww%2Fdelivery%2Fck.php%3Foaparams%3D2__bannerid%3D1597__zoneid%3D28__cb%3Da3cda0e3ef__oadest%3Dhttp%253A%252F%252Fbusiness-easy.hypovereinsbank.de%252F%253Fhvbcid%253DBAC-352491%253A8118277%253A16824131\');\n";
+OX_38f6d5b0 += "ox_swf.addParam(\'allowScriptAccess\',\'always\');\n";
+OX_38f6d5b0 += "ox_swf.write(\'ox_d43d9f777a3e306c079e735f8291d8a4\');\n";
+OX_38f6d5b0 += "if (ox_swf.installedVer.versionIsValid(ox_swf.getAttribute(\'version\'))) { document.write(\"<"+"div id=\'beacon_a3cda0e3ef\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://sox.newsfactory.de/www/delivery/lg.php?bannerid=1597&amp;campaignid=770&amp;zoneid=28&amp;loc=http%3A%2F%2Fwww.b4bschwaben.de%2Fnachrichten%2Faugsburg_artikel%2C-Mehr-als-nur-Zahlen-Universitaet-will-fuer-Mathe-begeistern-_arid%2C131039.html&amp;cb=a3cda0e3ef\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\"); } else { document.write(\"<"+"div id=\'beacon_a3cda0e3ef\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://sox.newsfactory.de/www/delivery/lg.php?bannerid=1597&amp;campaignid=770&amp;zoneid=28&amp;loc=http%3A%2F%2Fwww.b4bschwaben.de%2Fnachrichten%2Faugsburg_artikel%2C-Mehr-als-nur-Zahlen-Universitaet-will-fuer-Mathe-begeistern-_arid%2C131039.html&amp;oxfb=1&amp;cb=a3cda0e3ef\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div>\"); }\n";
+OX_38f6d5b0 += "// ]]> --><"+"/script><"+"noscript><"+"div id=\'beacon_a3cda0e3ef\' style=\'position: absolute; left: 0px; top: 0px; visibility: hidden;\'><"+"img src=\'http://sox.newsfactory.de/www/delivery/lg.php?bannerid=1597&amp;campaignid=770&amp;zoneid=28&amp;loc=http%3A%2F%2Fwww.b4bschwaben.de%2Fnachrichten%2Faugsburg_artikel%2C-Mehr-als-nur-Zahlen-Universitaet-will-fuer-Mathe-begeistern-_arid%2C131039.html&amp;oxfb=1&amp;cb=a3cda0e3ef\' width=\'0\' height=\'0\' alt=\'\' style=\'width: 0px; height: 0px;\' /><"+"/div><"+"/noscript><"+"script type=\'text/javascript\'>document.context=\'fHA6Nzcw\'; <"+"/script>\n";
+document.write(OX_38f6d5b0);

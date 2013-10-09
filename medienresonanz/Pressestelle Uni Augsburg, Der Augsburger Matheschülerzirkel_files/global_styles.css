@@ -1,0 +1,386 @@
+/* Stylesheet zur Festlegung globaler Gestaltungseigenschaften */
+
+/* Dateiweite Einstellungen */
+html {
+width:100%;
+min-height:100%;
+position:absolute;
+min-width:100%;
+}
+html:last-child {
+  position:relative;
+}
+body {
+min-height:100%;
+margin:0;
+padding:0;
+font-family:Verdana,Arial,Helvetica,sans-serif; 
+font-size:90%;
+position:absolute;
+width:100%;
+min-width:100%;
+}
+img {
+border:1px none #fff;
+padding:0;
+margin:0; 
+} 
+div { 
+padding:0; 
+margin:0; 
+}
+#header { 
+height:100px; 
+margin-bottom:5px; 
+position:absolute;
+top:0;
+left:0;
+min-width:100%;
+z-index:1;
+}
+#container { 
+position:absolute;
+min-height:95%;
+height:auto;
+padding-bottom:3em;
+min-width:100%;
+}
+#content {
+position:relative;
+margin:0 210px 0 210px;
+padding-top:110px;
+min-width:320px;
+line-height: 1.5;
+z-index:0;
+} 
+.innerer_Bereich { 
+margin-left:20px; 
+} 
+address { 
+margin:10px; 
+}
+
+/* Die Überschriften */
+h1 {
+font-size:122%;
+}
+h2 {
+font-size:112%;
+}
+h3 {
+font-size:108%;
+}
+h4 {
+font-size:106%;
+}
+h5 {
+font-size:104%;
+}
+h6 {
+font-size:102%;
+}
+
+/* Die allgemeinen Links */
+a:link {
+text-decoration:none;
+font-weight:bold;
+font-size:98%;
+}
+a:visited {
+text-decoration:none;
+font-weight:bold;
+font-size:98%;
+}
+a:link:focus,a:link:hover,a:link:active,a:visited:focus,a:visited:hover,a:visited:active {
+text-decoration:underline;
+}
+
+/* Die Schriftzugbilder im Header-Bereich */ 
+#header ul { 
+list-style-type:none; 
+margin:0; 
+padding:0; 
+} 
+#header ul li { 
+display:inline; 
+} 
+#unilogo { 
+position:absolute; 
+top:0; 
+right:0; 
+} 
+#unischrift { 
+position:absolute; 
+top:0; 
+right:100px; 
+} 
+#bereichszug { 
+position:absolute; 
+top:0; 
+left:0; 
+}
+#bereichslogo {
+position:absolute; 
+top:50px; 
+left:0; 
+}
+#bereichslogo2 {
+position:absolute; 
+top:50px; 
+left:60px; 
+}
+#bereichslogo3 {
+position:absolute; 
+top:50px; 
+left:120px; 
+}
+
+/* Das linke Navigationsmenü */
+#navigation {
+position:absolute;
+top:100px;
+left:0;
+width:195px;
+z-index:2;
+}
+#navigation ul {
+margin:0;
+padding:0;
+list-style-type:none;
+}
+#navigation ul li {
+margin:10px 5px;
+font-size:95%;
+font-weight:bold;
+}
+#navigation ul li a,#navigation ul li a:link { 
+padding:5px; 
+display:block; 
+} 
+#navigation ul li ul { 
+margin-left:17px; 
+} 
+#navigation ul li ul li { 
+margin:0; 
+font-size:90%; 
+font-weight:normal;
+} 
+#navigation ul li ul li a,#navigation ul li ul li a:link { 
+padding:2px; 
+font-weight:normal;
+} 
+#navigation ul li ul li ul { 
+margin-left:10px; 
+list-style-type:none; 
+list-style-image:none; 
+} 
+#navigation ul li ul li ul li { 
+font-size:90%; 
+}
+
+/* "Verlaufs"-Navigation */
+#micronav {
+margin:0;
+padding:0;
+font-size:85%;
+}
+#micronav ul {
+list-style-type:none;
+margin:0;
+padding:0;
+}
+#micronav ul li {
+display:inline;
+}
+
+/* Sitemap, Suche und Sprachwechsel */
+#right_info {
+position:absolute;
+top:110px;
+right:10px;
+font-size:75%;
+width:180px;
+text-align:center;
+padding:3px;
+border:1px solid #666666; 
+}
+#right_info a:link,#right_info a:visited {
+font-weight:normal;
+}
+#right_info h3 {
+font-size:110%;
+text-align:left;
+padding:10px 0 3px 0;
+color:#000;
+border-top:#666666 solid 1px;
+font-weight:bold;
+}
+#right_info h3.keine_sprachvers {
+padding:0 0 3px 0;
+border-top:#666666 none 1px;
+font-weight:bold;
+}
+#right_info h3 a:link,#right_info h3 a:visited {
+font-weight:bold;
+}
+#right_info ul {
+margin:10px;
+padding:0;
+list-style-type:none;
+}
+#right_info ul.aktuell {
+list-style-type:none;
+text-align:left;
+margin-left:15px;
+}
+#right_info ul.sprachschalter {
+list-style-type:none;
+text-align:left;
+margin:0;
+}
+#right_info form {
+list-style-type:none;
+margin:10px;
+padding:0;
+}
+
+#rightnav {
+position:absolute;
+top:110px;
+right:0;
+text-align:center;
+width:130px;
+font-size:85%;
+}
+#rightnav ul {
+list-style-type:none;
+margin:0;
+padding:0;
+}
+#query {
+font-size:90%;
+}
+
+/* Der Footer-Bereich (Impressum & Co.) */ 
+#footer {
+position:absolute;
+bottom:0;
+left:0;
+width:100%;
+text-align:center;
+font-size:85%;
+z-index:1;
+}
+#footer ul {
+list-style-type:none; 
+} 
+#footer ul li { 
+display:inline; 
+}
+
+/* Zusätzliche Style-Eigenschaften */
+.float_right {
+float:right;
+}
+.float_right_abstand {
+float:right;
+margin:10px;
+}
+.float_left {
+float:left;
+}
+.float_left_abstand {
+float:left;
+margin:10px;
+}
+.abstand_klein {
+margin:3px;
+}
+.aktuell_veranstaltung {
+max-width:250px;
+padding:5px;
+margin:0 0 10px 10px;
+}
+.list_style_none {
+list-style-type:none;
+}
+.aktuell_rechts {
+margin-bottom:5px;
+text-align:right;
+}
+.rundrum_platz {
+margin-top:1em;
+margin-bottom:1em;
+}
+#aufzaehlung_unterordner li{
+margin-bottom:1em;
+}
+.color_f5f5f5 {
+background-color:#f5f5f5;
+}
+.color_ddd {
+background-color:#ddd;
+}
+.underline {
+text-decoration:underline;
+}
+.center {
+text-align:center;
+}
+.left {
+text-align:left;
+}
+.right {
+text-align:right;
+}
+.italic {
+font-style:italic;
+}
+ul.inline {
+list-style-type:none;
+margin:0;
+padding:0;
+}
+ul.inline li {
+display:inline;
+}
+h3.wochentag {
+background-color:#ff9;
+border-bottom:2px solid #ddd;
+font-weight:700;
+}
+div.startseite div {
+width:45%;
+}
+div.bib_start_left {
+width:50%;
+float:left;
+}
+div.bib_start_right {
+margin-right:0px;
+}
+.gallery {
+list-style-type:none;
+list-style-position:inside;
+line-height:15px;
+}
+.gallery li {
+display:inline;
+text-align:center;
+vertical-align: middle;
+}
+.gallery li img {
+margin:15px;
+}
+.gallery_nav {
+list-style-type:none;
+text-align:center;
+}
+.gallery_nav li {
+display:inline;
+text-align:center;
+border:1px solid black;
+padding:5px;
+margin:10px;
+background-color:#f5f5f5;
+}
