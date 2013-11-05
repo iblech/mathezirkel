@@ -23,6 +23,7 @@
 
 \newcommand{\freist}{\hdashrule{11cm}{1px}{1pt}}
 \newcommand{\freistMittel}{\hdashrule{6cm}{1px}{1pt}}
+\newcommand{\freistLaenger}{\hdashrule{8cm}{1px}{1pt}}
 \newcommand{\freistKurz}{\hdashrule{2cm}{1px}{1pt}}
 \newcommand{\checkbox}{$\ \Box\ $}
 
@@ -41,7 +42,6 @@
       Matheschülerzirkel \\
       Universität Augsburg \\
       Lehrstuhl für Algebra und Zahlentheorie \\
-      Institut für Mathematik \\
       Universitätsstraße 14 \\
       86159 Augsburg}
 \newcommand{\betreff}{}
