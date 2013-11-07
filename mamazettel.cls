@@ -14,7 +14,7 @@
 \RequirePackage{lmodern}
 
 \RequirePackage{geometry}
-\geometry{tmargin=2cm,bmargin=2cm,lmargin=1.5cm,rmargin=2.5cm}
+\geometry{tmargin=2cm,bmargin=1.5cm,lmargin=1.5cm,rmargin=2.5cm}
 
 \RequirePackage{hyperref}
 
