@@ -14,18 +14,20 @@
 \RequirePackage{lmodern}
 
 \RequirePackage{geometry}
-\geometry{tmargin=2cm,bmargin=1.5cm,lmargin=1.5cm,rmargin=2.5cm}
+\geometry{tmargin=1cm,bmargin=1.5cm,lmargin=1.5cm,rmargin=2.5cm}
 
 \RequirePackage{hyperref}
 
 \RequirePackage{dashrule}
 \RequirePackage{setspace}
 
-\newcommand{\freist}{\hdashrule{11cm}{1px}{1pt}}
-\newcommand{\freistMittel}{\hdashrule{6cm}{1px}{1pt}}
-\newcommand{\freistLaenger}{\hdashrule{8cm}{1px}{1pt}}
-\newcommand{\freistKurz}{\hdashrule{2cm}{1px}{1pt}}
-\newcommand{\checkbox}{$\ \Box\ $}
+\newcommand{\freist}[1]{\hdashrule{#1}{1px}{1pt}}
+\newcommand{\freistLang}{\freist{11cm}}
+\newcommand{\freistMittel}{\freist{6cm}}
+\newcommand{\freistLaenger}{\freist{8cm}}
+\newcommand{\freistKurz}{\freist{2cm}}
+\newcommand{\checkbox}{\ensuremath{\ \Box\ }}
+\newcommand{\phantomcheckbox}{\ensuremath{\phantom{\ \Box\ }}}
 
 \setlength\parskip{\medskipamount}
 \setlength\parindent{0pt}
@@ -55,6 +57,7 @@
       Augsburg}
     }
     \put(0,-3.5){\vbox{\small\anschrift}}
+    \put(14.7,-3.5){\includegraphics[scale=0.18]{illustrationen/cover}}
   \end{picture}\par
   \vspace{4cm}
   \textbf{\betreff}\par
