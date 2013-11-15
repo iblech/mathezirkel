@@ -11,6 +11,7 @@
 \RequirePackage{lmodern}
 \RequirePackage{hyperref}
 \RequirePackage{float}
+\RequirePackage{multicol}
 
 \RequirePackage{geometry}
 \geometry{tmargin=2cm,bmargin=2cm,lmargin=3cm,rmargin=3cm}
@@ -19,16 +20,22 @@
 \setlength\parskip{\medskipamount}
 \setlength\parindent{0pt}
 
+\setlength{\unitlength}{1cm}
+
 \newif\ifloesungen\loesungenfalse
 \newif\ifpruefung\pruefungfalse
 
 \newlength{\titleskip}
-\setlength{\titleskip}{1.4em}
+\setlength{\titleskip}{1.3em}
 \renewcommand{\maketitle}[2]{%
   \ifloesungen\else\thispagestyle{empty}\fi%
-  Mathesch\"ulerzirkel \hfill Schuljahr 2013/2014 \\
-  Universit\"at Augsburg \hfill #1  \\
-
+\begin{picture}(0,0)
+ \put(0,-1){  \vbox{  Mathesch\"ulerzirkel\\
+   Universit\"at Augsburg\\
+  Schuljahr 2013/2013\\
+  #1 }}
+ \put(13,-2){\includegraphics[scale=0.10]{cover} }
+\end{picture} \vspace*{1.7cm}
   \begin{center}\Large \textbf{Zirkelzettel vom #2}
   \end{center}
   \vspace{\titleskip}}
@@ -37,7 +44,7 @@
 \renewcommand{\labelenumi}{\theenumi)}
 
 \newlength{\aufgabenskip}
-\setlength{\aufgabenskip}{2.0em}
+\setlength{\aufgabenskip}{1.0em}
 \newcounter{aufgabennummer}
 \newenvironment{aufgabe}[1]{
   \addtocounter{aufgabennummer}{1}
