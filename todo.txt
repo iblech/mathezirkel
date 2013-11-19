@@ -1,4 +1,3 @@
-Weniger offensichtliche Punkte:
-* Facebook-Seite anlegen
-
-Gestaltungsidee: Fraktaler Baum, aber gemalt
+* Website Gruppen: Namen verlinken
+* Vorlage Korrespondenz Anschreiben und Material (Serienbriefoption)
+* zeitunabhaenigiger Flyer

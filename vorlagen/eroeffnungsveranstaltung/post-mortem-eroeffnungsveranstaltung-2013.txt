@@ -1,4 +1,4 @@
-* Schilder: Auch Alternativroute längs des Mathegebäudes beschildern.
+﻿* Schilder: Auch Alternativroute längs des Mathegebäudes beschildern.
 * Jemanden zum Lotsen der Leute hinstellen.
 * Bäcker: Vorab den Preis fixieren. Außerdem vielleicht lieber einen
   lokalen Bäcker nehmen (keine Kette).
@@ -12,3 +12,4 @@
 * Bei Formularen ergänzen: "in Blockschrift ausfüllen"
 * Am Ende der Auftaktveranstaltung nach vergessenen Gegenständen Ausschau
   halten.
+* Geschenk fuer Vortragenden
