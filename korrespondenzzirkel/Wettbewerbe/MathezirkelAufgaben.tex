@@ -1,0 +1,230 @@
+%Dieses Dokument soll eine Sammlung von Wettbewerbsaufgaben und deren Lšsungen darstellen, die man mit den entsprechenden Befehlen im Hauptdokument einbinden kann.
+%Die Aufgaben bestehen aus dem reinen Aufgabentext, ohne †berschrift und Angabe der Herkunft.
+%
+%
+%
+%Im Hauptdokument ist das Paket "ifthen" einzubinden.
+
+\usepackage{ifthen}
+
+\newcommand{\myequal}[2]{
+
+{\textbf{Aufgabe #2}}
+
+}
+\newcommand{\myifthenelse}[3]{#1#2}
+
+\newcommand{\MO}[1]{%Dieser Befehl soll die MO-Aufgabe mit der im Argument angegebenen Nummer Ausgeben.
+
+
+
+\myifthenelse{\myequal{#1}{420932}}{
+Beweisen Sie, dass f\"ur jedes Paar $(a;b)$ ganzer Zahlen gilt: Sind beide Zahlen gerade oder beide ungerade, so l\"asst sich ihr Produkt als Differenz zweier Quadratzahlen darstellen.
+}{}
+
+\myifthenelse{\myequal{#1}{420936}}{
+Ermitteln Sie s\"amtliche reellen Zahlen $c$ mit der Eigenschaft:
+
+Die Ungleichung $cxy\leq x^2+y^2$ ist f\"ur alle reellen Zahlen $x,y$ erf\"ullt.
+}{}
+
+\myifthenelse{\myequal{#1}{421036}}{
+Beweisen Sie, dass f\"ur alle reellen Zahlen $a,b,c$ mit $abc\not=0$ gilt:
+$$\frac{a+b+c}{abc}\leq\frac{1}{a^2}+\frac{1}{b^2}+\frac{1}{c^2}$$
+Unter welchen Bedingungen gilt diese Formel mit Gleichheitszeichen?
+
+}{}
+
+\myifthenelse{\myequal{#1}{421334}}{
+Man ermittle alle positiven ganzen Zahlen $x$ und $y$, f\"ur die
+$$\frac{1}{x}+\frac{1}{y}=\frac{1}{2003}$$
+gilt.
+}{}
+
+\myifthenelse{\myequal{#1}{421333}}{
+In einer Beratung sitzen zehn Personen um einen runden Tisch. Nach einer Pause nehmen sie wieder Platz, wobei sich jeder auf seinen bisherigen Stuhl oder auf einen der beiden Nachbarst\"uhle setzt.
+
+Wie viele Sitzordnungen sind nach der Pause m\"oglich?
+}{}
+
+\myifthenelse{\myequal{#1}{421332}}{
+Auf einer Kreislinie $k$ liegen (nicht notwendig in dieser Reihenfolge) die Punkte $A,B,C,D$. Ein weiterer Punkt $P$ liege auf der Strecke $\overline{AD}$ im Inneren von $k$ und es gelte $|\overline{DB}|=|\overline{DP}|=|\overline{DC}|$.
+
+Man beweise, dass der Punkt $P$ der Mittelpunkt des Inkreises des Dreiecks $\triangle ABD$ ist.
+}{}
+
+
+\myifthenelse{\myequal{#1}{420632}}{
+W\"ahle drei von Null verschiedene Ziffern. Bilde aus jeweils 2 dieser Ziffern eine zweistellige Zahl. Schreibe alle Zahlen auf, die sich so bilden lassen. Nun addiere alle diese Zahlen. Teile diese Summe durch die Summe der drei von dir am Anfang gew\"ahlten Ziffern. Wetten, dass du stets dasselbe Ergebnis erh\"alst?
+\begin{enumerate}
+\item Wie lautet dieses Ergebnis?
+\item Warum ist das immer so?
+\end{enumerate}
+}{}
+
+\myifthenelse{\myequal{#1}{420633}}{
+Die Abbildung zeigt ein symmetrisches Achteck. Zerlege das Achteck 
+\begin{enumerate}
+\item\label{eins} durch eine Gerade in zwei kongruente (d.h.\ deckungsgleiche) F\"unfecke;
+\item durch zwei Geraden in vier kongruente F\"unfecke;
+\item\label{drei} durch vier Geraden in acht kongruente Vierecke.
+\item Silke fragt sich: \glqq Ich m\"ochte mir f\"ur die Aufgabenteile \ref{eins} und \ref{drei} jeweils ein solches Achteck zeichnen. Und in beiden F\"allen solen die Teilfl\"achen die gleiche Fl\"achengr\"o{\ss}ue haben -- und zwar jeweils $56 \text{cm}^2$. Wie lang muss ich dann f\"ur die beiden Achtecke jeweils die waagerechten (oder senkrechten) Strecken zeichnen?\grqq\ Bestimme f\"ur die beiden F\"alle jeweils die L\"ange der Strecke (und hilf damit Silke)!
+\end{enumerate}
+}{}
+
+\myifthenelse{\myequal{#1}{420623}}{
+Durch folgende Konstruktion kann man ein gleichseitiges Dreieck erhalten: Zeichne einen Kreis mit einem Radius von 3 cm. Lege auf dem Kreis einen Punkt fest. Trage von diesem Punkt aus auf dem Kreis weitere Punkte mit der gleichen Zirkelspanne von 3 cm ab, indem du immer in den zuletzt gezeichneten Punkt einsetzt. Du erh\"altst sechs Punkte auf dem Kreis. Verbinde jetzt jeden zweiten Punkt miteinander!\begin{enumerate}
+\item Zerlege dieses gezeichnete Dreieck in 2 kongruente (d. h. deckungsgleiche) Dreiecke.\item Zerlege dieses gezeichnete Dreieck in 3 kongruente Dreiecke.\item Zerlege dieses gezeichnete Dreieck in 4 kongruente Dreiecke.\item Zerlege dieses gezeichnete Dreieck in 6 kongruente Dreiecke.\item Zerlege dieses gezeichnete Dreieck in 8 kongruente Dreiecke.\item Weise nach, dass sich dieses Dreieck in 192 kongruente Dreiecke zerlegen l\"asst.
+\end{enumerate}
+}{}
+
+
+\myifthenelse{\myequal{#1}{420621}}{Karl kam mit seinen drei S\"ohnen Alfons, Berti und Chris w\"ahrend einer Wanderung an einen Fluss. Leider gab es keine Br\"ucke und schwimmen wollten sie nicht. Zum \"Uberqueren war an dem Ufer ein Schlauchboot angebunden. Sie stellten beim Probieren fest, dass das Schlauchboot gerade mal 100kg trug, soviel wie der dicke Karl schon alleine wog. Zum Gl\"uck waren seine S\"ohne leichter, Alfred wog 52 kg, Berti war 3 kg leichter und alle vier Personen wogen zusammen 247 kg. Die Sache wurde erschwert, weil Berti nicht rudern konnte. Bei ihm w\"urde sich das Schlauchboot nur im Kreis drehen. Nach einer genauen Planung der Fahrten fanden sie doch noch eine M\"oglichkeit, so dass alle vier am anderen Ufer ankamen. Mit wie vielen \"Uberfahrten konnte die Familie das schaffen? Gib f\"ur die \"Uberfahrten jeweils an, wer sich im Schlauchboot befand und wer an welchem Ufer wartete!
+}{}
+
+\myifthenelse{\myequal{#1}{420722}}{
+Ein Fu{\ss}g\"anger und ein Radfahrer brechen um 8 Uhr in A auf, um nach B zu gelangen. Der Fu{\ss}g\"anger marschiert mit einer konstanten Geschwindigkeit von 5 km/h, der Radfahrer f\"ahrt mit einer konstanten Geschwindigkeit von 15 km/h. Nachdem der Radfahrer die H\"alfte des Weges zur\"uckgelegt hat, verfehlt er den k\"urzesten Weg zum Ziel und f\"ahrt auf Umwegen nach B. Der Fu{\ss}g\"anger hingegen benutzt den direkten Weg. Beide erreichen B zum gleichen Zeitpunkt. H\"atte sich der Radfahrer nicht verfahren, so w\"are er zwei Stunden fr\"uher als der Fu{\ss}g\"anger in B angekommen.
+\begin{enumerate}\item Wann kommen der Fu{\ss}g\"anger und der Radfahrer in B an?\item Wie gro{\ss} ist die Entfernung, die der Radfahrer vom Beginn seines Umweges bis zum Ort B zur\"ucklegen muss?
+\end{enumerate}
+}{}
+
+
+\myifthenelse{\myequal{#1}{420724}}{
+In der Ebene seien 8 Punkte gegeben, von denen je drei nicht auf ein und derselben Geraden liegen. Jeder dieser Punkte sei mit jedem der restlichen sieben Punkte durch eine Strecke verbunden.
+\begin{enumerate}\item Wie viele Strecken gibt es zwischen diesen 8 Punkten?\item Wie viele Strecken erh\"alt man, wenn genau n Punkte mit $n \geq 2$ gegeben sind?\item Jemand hat in der Ebene Punkte markiert und jeden dieser Punkte mit jedem der restlichen Punkte verbunden. Er z\"ahlt insgesamt 45 Strecken.Untersuche, ob er richtig gez\"ahlt haben kann! Sollte das der Fall sein, dann gib die Anzahl der markierten Punkte an!
+\end{enumerate}
+}{}
+
+
+\myifthenelse{\myequal{#1}{420823}}{
+\"Uber ein Viereck $ABCD$ werde vorausgesetzt, dass
+\begin{enumerate}[I]\item alle Eckpunkte auf einem Kreis $k$ mit dem Mittelpunkt $M$ liegen,
+\item der Mittelpunkt $M$ auf $\overline{CD}$ liegt,
+\item $\overline{AB}$ parallel zu \overline{CD}$ verl\"auft,
+\item der Radius $\overline{BM}$ mit $\overline{AB}$ einen Winkel der Gr\"o{\ss}e $46^\circ$ bildet,\item $\overline{BM}$ die Diagonale $\overline{AC}$ im Punkt $S$ schneidet.
+\end{enumerate}
+\ 
+\begin{enumerate}
+\item Ermittle unter diesen Voraussetzungen die Gr\"o{\ss}e des Winkels $BSC$!\item Ermittle die Gr\"o{\ss}e $\sigma$ des Winkels $BSC$ allgemein in Abh\"angigkeit von der Gr\"o{\ss}e $\varphi$ des gegebenen Winkels $MBA$!\item Ermittle die Gr\"o{\ss}e $\varphi$ des Winkels $MBA$, wenn die Gr\"o{\ss}e des Winkels $BSC$ mit $\sigma=54^\circ$ gegeben ist!
+\end{enumerate} 
+}{}
+
+
+\myifthenelse{\myequal{#1}{420824}}{
+\begin{enumerate}
+\item Von drei \"au{\ss}erlich gleichartig aussehenden Ringen ist einer etwas leichter als die beiden anderen. Zeige, wie man diesen Ring mit einer einzigen W\"agung auf einer gleicharmigen Balkenwaage findet!\item Von vier gleich aussehenden Ringen unterscheidet sich einer in der Masse von den anderen. Zeige, wie man ihn mit genau zwei W\"agungen mittels einer gleicharmigen Balkenwaage herausfinden kann!\item Von 75 gleich aussehenden Ringen unterscheidet sich genau einer in der Masse von den anderen. Zeige, wie man mit Hilfe von zwei W\"agungen auf einer gleicharmigen Balkenwaage feststellen kann, ob dieser Ring leichter oder schwerer als die anderen Ringe ist!
+\end{enumerate}
+}{}
+
+
+
+\myifthenelse{\myequal{#1}{420922}}{
+Beweisen Sie, dass f\"ur jede Primzahl $p > 5$ die Zahl $p^4 ? 1$ durch $120$ teilbar ist.
+
+}{}
+
+
+\myifthenelse{\myequal{#1}{420923}}{
+Bei einem Viereck bezeichnen wir die beiden Strecken, die die Mittelpunkte zweier gegen\"uberliegender Seiten verbinden, als Mittellinien. Beweisen Sie: Die Mittellinien eines Vierecks sind genau dann gleich lang, wenn seine Diagonalen senkrecht zueinander sind.
+}{}
+
+
+
+\myifthenelse{\myequal{#1}{420921}}{
+Wie viele verschiedene Paare $(A; B)$ von h\"ochstens f\"unfstelligen nat\"urlichen Zahlen $A$ und $B$ gibt es, bei deren Addition an keiner Stelle ein \"Ubertrag auftritt?
+
+\emph{Hinweis:} Auch die Zahlenpaare $(A;B)$ und $(B;A)$ mit $A\not= B$ gelten als verschieden.
+
+}{}
+
+
+\myifthenelse{\myequal{#1}{420924}}{
+Gegeben sei ein Quadrat $ABCD$ mit der Seitenl\"ange a. Die Menge $M$ aller Punkte $P$ der Ebene, f\"ur die sowohl das Dreieck $\triangle ABP$ als auch das Dreieck $\triangle ADP$ spitzwinklig ist, bildet eine Fl\"ache.
+\begin{enumerate}
+\item Stellen Sie diese Fl\"ache $M$ (zun\"achst ohne Begr\"undung) graphisch dar (z.B. f\"ur $a = 6cm$) und berechnen Sie den Fl\"acheninhalt $F(M)$ in Abh\"angigkeit von $a$.\item Begr\"unden Sie die Korrektheit der Darstellung von $M$.\item Beschreiben Sie die Menge $M?$ aller Punkte $Q$, f\"ur die sowohl das Dreieck $\triangle ABQ$ als auch das Dreieck $\triangle ADQ$ stumpfwinklig ist.
+\end{enumerate}
+
+}{}
+
+
+
+\myifthenelse{\myequal{#1}{421022}}{
+Wir betrachten alle diejenigen Zahlen $u^3 ? u$, bei denen $u$ eine ungerade Zahl mit $u > 1$ ist.
+\begin{enumerate}
+\item Beweisen Sie, dass jede dieser Zahlen gerade ist.
+\item Ermitteln Sie den gr\"o{\ss}ten gemeinsamen Teiler aller dieser Zahlen.
+\end{enumerate}
+
+}{}
+
+
+\myifthenelse{\myequal{#1}{421321}}{
+
+Man bestimme alle (im Dezimalsystem) 6-stelligen Zahlen z mit folgenden Eigenschaften:
+\begin{enumerate}\item alle Ziffern sind gerade Zahlen, 
+\item die Zahl ist durch 7 teilbar, 
+\item die erste Ziffer ist doppelt so gro{\ss} wie die zweite, 
+\item die Quersumme der gesuchten Zahl ist 10.
+\end{enumerate}
+
+}{}
+
+
+
+\myifthenelse{\myequal{#1}{421323}}{
+
+Man ermittle alle reellen L\"osungen $(x; y; z)$ des Gleichungssystems
+\begin{align}xyz &= 2002
+\\x+y+z &= 42
+\\ xy+xz &= 377.
+\end{align}
+}{}
+
+
+
+\myifthenelse{\myequal{#1}{421322}}{
+Das Viereck $ABCD$ sei ein Parallelogramm, der Punkt $Q$ sei der Mittelpunkt der Seite $\overline{DA}$ und der Punkt $F$ sei der Fu{\ss}punkt des Lotes vom Punkt $B$ auf die Gerade $QC$. Man beweise, dass die Strecken $\overline{AB}$ und $\overline{AF}$ gleich lang sind.
+
+}{}
+
+
+
+\myifthenelse{\myequal{#1}{}}{
+
+
+}{}
+
+
+
+\myifthenelse{\myequal{#1}{}}{
+
+
+}{}
+
+
+
+\myifthenelse{\myequal{#1}{}}{
+
+
+}{}
+
+
+
+\myifthenelse{\myequal{#1}{}}{
+
+
+}{}
+
+
+
+\myifthenelse{\myequal{#1}{}}{
+
+
+}{}
+
+
+
+
+
+
+}
