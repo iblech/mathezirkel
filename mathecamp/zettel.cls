@@ -12,6 +12,7 @@
 \RequirePackage[protrusion=true,expansion=true]{microtype}
 
 \RequirePackage{lmodern}
+\RequirePackage{textcomp}
 
 \RequirePackage{geometry}
 \geometry{tmargin=1cm,bmargin=1.5cm,lmargin=1.5cm,rmargin=2.5cm}
