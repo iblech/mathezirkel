@@ -1,7 +1,19 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{zettel}[2013/03/29 LaTeX class]
 
-\LoadClass[a4paper,ngerman,13pt]{scrartcl}
+\DeclareOption{12pt}{
+  \PassOptionsToClass{\CurrentOption}{scrartcl}
+}
+\DeclareOption{13pt}{
+  \PassOptionsToClass{\CurrentOption}{scrartcl}
+}
+\DeclareOption*{
+  \ClassWarning{zettel}{Unbekannte Option '\CurrentOption'}
+}
+
+\ProcessOptions\relax
+
+\LoadClass[a4paper,ngerman]{scrartcl}
 
 \RequirePackage[utf8]{inputenc}
 
