@@ -1,0 +1,556 @@
+/**
+ * "Yet Another Multicolumn Layout" - (X)HTML/CSS framework
+ * (en) central stylesheet
+ * (de) zentrales Stylesheet
+ *
+ * @creator       YAML Builder V1.2.1 (http://builder.yaml.de)
+ * @file          my_layout.css
+ * @-yaml-minver  3.3
+ * 
+ */
+
+/* import core styles | Basis-Stylesheets einbinden */
+@import url(../yaml/core/base.css);
+
+
+/* import screen layout | Screen-Layout einbinden */
+@import url(../yaml/navigation/nav_slidingdoor.css);
+@import url(../yaml/navigation/nav_vlist.css);
+@import url(../yaml/screen/basemod.css);
+@import url(../yaml/screen/content.css);
+
+/* import print layout | Druck-Layout einbinden */
+@import url(../yaml/print/print_draft.css);
+
+@media screen {
+
+body {
+	background-color:#E3E6E9;
+	background-image:url(../Bilderfix/Background.jpg);
+	background-repeat:repeat-x;
+}
+
+
+
+div.page_margins {
+	width:980px;
+	margin:auto;
+	padding-top:20px;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:0.72em;
+	line-height:1.5em;
+	color:#666;
+	border:0px solid #999;
+	font-weight:200;
+}
+
+h1 {
+	padding-bottom:15px;
+	font-weight:bold;
+	font-size:100%;
+	
+}
+
+h2 {
+	padding-bottom:15px;
+	font-size:1em;
+}
+
+h3 {
+	padding-bottom:15px;
+	font-size:1em;
+}
+
+h2 a,
+h3 a,
+p a {
+	color:#000;
+}
+
+
+
+div#footer {
+	padding:10px;
+	background-color:#768693;
+	color:#EEE;
+	font-size:0.8em;
+}
+
+
+
+div#main {
+
+	background-color:#FFF;
+	padding:20px 0 10px 0;
+}
+
+div#col1 {
+	padding: 0 0 0 10px;
+}
+
+div#col3
+
+{
+	padding:0 10px 0 10px;
+}
+
+div.mod_calendar {
+	width:185px;
+	border:1px solid #677784;
+	margin-top:20px;
+	padding:2px;
+	background-color:#EEE;
+	font-size:0.75em;
+	margin-bottom:20px;
+}
+
+div.mod_calendar table {
+	width:180px;
+	text-align:center;
+}
+
+div.mod_calendar table a {
+	color:#000000;
+	font-weight:bold;
+}
+
+div.layout_full,
+div.mod_newsreader {
+	padding-bottom:20px;
+}
+
+div#aktuelles-10 div.mod_newslist.block,
+div#nachrichtenuebersicht div.mod_newslist.block,
+div#col2_content div.mod_avisota_subscription.block,
+div#col2_content div.mod_eventlist.block
+{
+	background-color:#EEE;
+	width:180px;
+	padding:5px;
+	border:#CCC;
+	font-size:100%;
+	border:1px solid #677784;
+}
+
+div#aktuelles-10 div.mod_newslist.block h1,
+div#nachrichtenuebersicht div.mod_newslist.block h1,
+div.mod_eventlist.block h1,
+div#col2_content div.mod_avisota_subscription.block h1
+
+{
+	font-size:1em;
+	color:#FFF;
+	display:block;
+	width:180px;
+	height:5px;
+	padding-top:3px;
+	margin-bottom:4px;
+	background-image:url(../Bilderfix/headers.png);
+	background-repeat:no-repeat;
+	text-align:center;
+
+}
+
+
+
+
+div#newsliste-startseite div.layout_short.block {
+margin-bottom:20px;
+padding-bottom:10px;
+border-bottom:1px dotted #999;
+}
+
+
+
+
+/* Newsletter */
+
+div#col2_content div.mod_avisota_subscription.block {
+	margin-top:20px;
+	
+}
+
+div#col2_content div.mod_avisota_subscription.block div.widget.widget-text {
+	margin-top:10px;
+}
+
+div#col2_content div.mod_avisota_subscription.block input#ctrl_email {
+
+}
+
+div#col3_content div.mod_avisota_subscription.block submit {
+	border:1px solid #666;
+	background-color:#CCC;
+	width:175px;
+	margin:5px 0 5px 0;
+}
+
+div#col2_content div.mod_avisota_subscription.block p.message {
+color:#FF0000;
+}
+
+
+
+/* Linke Navigation '*/
+
+
+
+#navilinks {
+	width:180px;
+}
+
+
+
+
+#topnav .mod_form.tableless {
+	border:0;
+	margin-top:-30px;
+	float:right;
+
+}
+
+
+/* Abstände Standard */
+
+div#col3_content .teaser,
+div#col3_content .mod_article.block,
+div#col3_content .ce_text p  { 
+margin: 0 0 15px 0;
+color:#666;
+}
+
+
+
+/* Navi links */
+
+.vlist ul.level_1 li.active,
+.vlist ul.level_1 li.submenu a {
+	color:#FFF;
+	background-color:#677784;
+	font-weight:bold;
+	  }
+  
+ .vlist ul.level_2 li.active {
+    color:#000;
+    background-color:#EEE;
+    font-weight:bold;
+	font-size:10px;
+  }
+   
+#col1 ul.level_2 a {
+	font-size:10px;
+	font-weight:normal;
+	background-color:#EEE;
+	color:#333;
+}
+
+
+
+#col1 ul.level_2 a:hover {
+	color:#000;
+	font-weight:bold;
+}
+
+  
+  
+  
+div#nav, div#topnav, div.hlist { background-color:#FFF; }  
+#menukopf { margin:0; padding:0; }
+div.page { border:5px solid white; background-color:white; }
+
+p.message { border:1px solid #666; background-color:white; padding:5px; color:#C00; margin-bottom:10px; margin-top:10px; }
+
+div.widget.widget-text  { border:0px solid #666; background-color:white; padding:5px; padding-left:0; color:#000; margin-bottom:10px; margin-top:10px; }
+
+#header .header { height:220px; }
+
+
+div.mod_sitemap ul li  {
+	list-style-image: none;
+	list-style-type: none;	
+	
+}
+
+div.mod_sitemap li a {
+	text-decoration:underlined;
+	color:#333;
+}
+
+
+div.neuenav {
+	background-color:#677784;
+	padding-right:10px;
+	height:18px;
+	padding-top:2px;
+	
+
+}
+div.neuenav ul li {
+	list-style-image: none;
+	list-style-type: none;	
+	float:right;
+	margin-left:8px;
+	color:white;
+
+}
+
+div.neuenav ul li a,
+div.neuenav ul li.active
+
+{
+	text-decoration:none;
+	color:#FFF;
+	font-size:11px;
+	text-transform: uppercase;	
+}
+
+.mod_navigation {
+	
+	border-bottom:0;
+}
+
+#topnav #ctrl_1_submit.submit,
+#main #ctrl_submit_11.submit
+{
+	margin-right:10px;
+	background-color:#677784;
+	color:white;
+	border:1px solid #000;
+padding:3px;
+	font-size:12px;
+
+}
+
+#topnav #ctrl_1.text,
+#main #ctrl_keywords_11.text
+{
+	margin-right:10px;
+	background-color:#EEE;
+	color:black;
+	width:125px;
+	border:1px solid #000;
+padding:3px;
+	font-size:11px;
+	height:15px;
+}
+
+
+form#kofo {
+  line-height: 1;
+  background-color: #FFF;
+  padding: 0 18px 18px 0px;
+  margin: 0 0 2em 0;
+}
+#kofo label {
+  display: block;
+  cursor: pointer;
+  margin: 18px 0 3px 0;
+}
+#kofo .checkbox_container label {
+  display: inline;
+  position: relative;
+  bottom: 2px;
+  font-weight:bold;
+}
+#kofo .checkbox_container {
+  margin-top: 1em;
+}
+#kofo input,
+#kofo textarea {
+  padding: 3px;
+
+
+
+}
+#kofo input:focus,
+#kofo textarea:focus {
+  background-color: #ECECEC;
+  color: #000;
+}
+#kofo p.error {
+  background: #FFF; /* pink */ 
+  color: #F000;
+  max-width: 400px;
+  padding: 3px;
+  border: 1px solid #f00; /* rot */
+  margin-bottom: 3px;
+}
+#kofo .checkbox_container + br {
+	display: none;
+}
+
+#kofo .text.kofo_name,
+#kofo .textarea.kofo_nachricht
+{
+	width:30px;
+	background-color:#EEE;
+	border:1px solid #666;
+}
+
+#kofo .captcha,
+#kofo .select.kofo_betreff
+{
+	width:150px;
+	background-color:#EEE;
+	border:1px solid #666;
+}
+
+
+#kofo .submit.kofo_abschicken
+{
+	margin-top:20px;
+	width:200px;
+	background-color:#677784;
+	color:white;
+	border:1px solid #000;
+	padding:3px;
+	font-size:12px;
+}
+
+
+div.mod_search .odd,
+div.mod_search .even,
+div.mod_search p.header {
+	margin-top:30px;
+}
+
+a {
+	
+	color:#333;
+}
+
+
+
+p.back a {
+	padding-top:20px;
+	text-decoration:none;
+	padding-bottom:5px;
+	color:#FFF;
+}
+
+
+p.back  {
+	margin-top:20px;
+	text-decoration:none;
+	color:#FFF;
+	width:70px;
+	height:14px;
+	background-color:#8A6262;
+	display:block;
+	text-align:center;
+	padding:2px;
+	padding-top:1px;
+	padding-bottom:5px;
+}
+
+
+#avisota_subscription_19 .submit_container.submit {
+	background-color:#FFF;
+	border:1px;
+	padding:10px;
+}
+
+div.caption {
+	font-size:10px;
+	font-style: italic;	
+
+}
+
+
+table {
+	border:0;
+	padding:0;
+	margin:0;
+}
+
+td.col_0,
+td.col_1
+{
+	vertical-align:top;
+}
+
+td.col_0 {
+
+	vertical-align:top;
+}
+
+td {
+	padding-bottom:10px;
+	}
+
+div.ce_download.block,
+div.ce_downloads.block
+
+{
+	margin-bottom:20px;
+}
+
+
+strong {
+	font-weight:bold;
+}
+
+
+}
+
+
+@media print {
+div.mod_slideshow2,
+div.header,
+div#nav,
+div#col2_content,
+div#col1_content {
+	display:none !important;
+}
+
+a {
+	text-decoration:none;
+	color:#000;
+	
+}
+
+p {
+	margin-bottom:10px;
+}
+
+}
+
+/* Style für den Akkordion Inhalt */
+.ce_accordion div.accordion > div {
+    margin-bottom:2px;
+    padding-top:10px;
+    padding-left:5px;
+}
+ 
+/* Style des zugeklappten Akkordion-Togglers */
+.ce_accordion div.toggler {
+    margin-bottom:3px;
+    padding:0 10px;
+    background:#677784 url("tl_files/layout/accord_zugeklappt.png") right center no-repeat;
+    font-weight:bold;
+    font-size:h1;
+    color:#FFFFFF;
+    border-bottom:1px #E7E6D3 solid;
+    padding-left:21px;
+    margin-top:7px;
+    cursor:pointer;
+    cursor:hand;
+}
+ 
+/* Style für das aufgeklappte Akkordion */
+.ce_accordion div.active {
+    padding:0 10px;
+    background:#CA2130 url("tl_files/layout/accord_aufgeklappt.png") right center no-repeat;
+    font-weight:bold;
+    color:#FFFFFF;
+    border-left:1px #E7E6D3 solid;
+    padding-left:5px;
+    margin-left:4px;
+}
+ 
+/* Style für den Mouseover-Effekt */
+.ce_accordion div.hover {
+    text-decoration:underline;
+    background:#CA2130 url("tl_files/layout/accord_mouseover.png") right center no-repeat;
+    cursor:pointer;
+}
