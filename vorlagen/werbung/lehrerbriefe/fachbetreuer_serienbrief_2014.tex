@@ -1,0 +1,89 @@
+\documentclass{serienbrief}
+
+\graphicspath{{../../illustrationen/}}
+
+\def\chopline#1;#2;#3;#4;#5 \\{
+  \def\schule{#1}
+  \def\strasse{#2}
+	\def\plz{#3}
+	\def\ort{#4}
+ }
+ 
+ \newif\ifmore \moretrue
+
+
+\begin{document}
+
+\newread\quelle
+ \openin\quelle=alle.csv
+ 
+ \loop
+  \read\quelle to \zeile
+  \ifeof\quelle
+   \global\morefalse
+  \else
+   \expandafter\chopline\zeile\\
+
+\renewcommand{\anschrift}{
+      \schule \\
+      Fachbereich Mathematik \\
+      \strasse \\
+      \plz ~\ort
+			}
+			
+\renewcommand{\betreff}{Mathesch\"ulerzirkel der Universit\"at Augsburg}
+
+\makeletterhead
+
+Sehr geehrte Fachbetreuerin, sehr geehrter Fachbetreuer,
+
+der Matheschülerzirkel ist ein kostenloses Förderangebot der Universität Augsburg für interessierte SchülerInnen
+der Klassenstufen~5 bis~12. Nach unserer Gründung im letzten Schuljahr geht es nun in die nächste Runde.
+
+In regelmäßig stattfindenden Treffen in den Räum\-lich\-kei\-ten der Universität, \emph{Präsenzzirkeln}, bringen wir
+den SchülerInnen spannende mathematische Themen
+näher. Es geht nicht um Nachhilfe oder Vorwegnahme von
+Unterrichtsinhalten, sondern um Beschäftigung mit anderen Themen wie etwa
+Spieltheorie, Zahlenrätseln, Fraktalen oder Graphentheorie. Falls gewünscht,
+bereiten wir auch auf mathematische Wettbewerbe vor.
+
+Zusätzlich bieten wir schriftliche \emph{Korrespondenzzirkel} an, an denen auch diejenigen Schü\-ler\-In\-nen teilnehmen können, die zu den Präsenzzirkeln verhindert sind. Dabei erhalten die SchülerInnen von uns
+Materialien und bearbeiten Übungsblätter, welche wir dann korrigieren.
+
+Die Kurse werden von Mitarbeiterinnen und Mitarbeitern des
+Instituts für Mathematik gehalten. Die Teilnahme ist für die SchülerInnen kostenlos. Die Präsenzzirkel finden
+außerhalb der Unterrichtszeiten statt, wobei die genauen Termine in einer
+Auftaktveranstaltung abgesprochen werden.
+
+Im letzten Schuljahr nahmen etwa 250 SchülerInnen unsere
+Angebote wahr, davon kamen knapp die Hälfte aus dem Großraum Augsburg. Außerdem veranstalteten wir mit knapp 90~Kindern ein fünftägiges Mathecamp im Schullandheim Violau.
+
+Ich bitte Sie, die beigelegten Briefe mit ausführlicheren Informationen und Flyern an Ihre
+FachlehrerInnen weiterzuleiten und Ihre SchülerInnen auf unser
+Angebot aufmerksam zu machen. Wenn gewünscht, kommen wir auch gerne zu Ihnen an die
+Schule, um Ihnen und Ihren KollegInnen oder Ihren SchülerInnen das
+Angebot persönlich zu erläutern.
+
+Für Rückfragen stehe ich Ihnen jederzeit telefonisch und schriftlich
+zur Verfügung. Ich danke Ihnen vielmals für Ihre Unterstützung.
+
+Mit freundlichen Gr\"u\ss en
+
+%\vspace{1cm}
+\hspace{1cm}\includegraphics[scale=0.4]{unterschrift_marco_hien}\vspace{-0.4cm}
+
+Prof. Dr. Marco Hien
+
+\vspace{-0.2cm}
+
+{\small Studiendekan der Mathematik}
+
+\newpage
+
+ \fi
+ \ifmore\repeat
+ 
+ \closein\quelle
+
+
+\end{document}
