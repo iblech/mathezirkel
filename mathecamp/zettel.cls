@@ -56,7 +56,7 @@
 \newcommand{\anschrift}{%
       Matheschülerzirkel \\
       Universität Augsburg \\
-      Lehrstuhl für Algebra und Zahlentheorie \\
+      Institut für Mathematik \\
       Universitätsstraße 14 \\
       86159 Augsburg}
 \newcommand{\betreff}{}
@@ -68,8 +68,7 @@
   \includegraphics[scale=0.1]{logo-ifm}\par
   \begin{picture}(0,0)
     \put(0,0){%
-      {\tiny Universität Augsburg -- Lst. Algebra und Zahlentheorie -- 86135
-      Augsburg}
+      {\tiny Universität Augsburg -- Institut für Mathematik, Mathezirkel -- 86135 Augsburg}
     }
     \put(0,-3.5){\vbox{\small\anschrift}}
     \gregor
